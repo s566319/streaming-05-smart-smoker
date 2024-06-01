@@ -23,13 +23,9 @@ With Homebrew on Mac run this command in the terminal in the project:
 
 1. Run emitter_of_tasks.py (say y to monitor RabbitMQ queues)
 
-Explore the RabbitMQ website.
-
 ## Execute a Consumer / Worker
 
 1. Run listening_worker.py
-
-Will it terminate on its own? How do you know? 
 
 ## Ready for Work
 
@@ -39,11 +35,14 @@ Will it terminate on its own? How do you know?
 
 1. Use your listening_worker.py script to launch a second worker. 
 
-python emitter_of_tasks.py
-Screenshot of the messages in the terminal
-These messages are sent to three separate queues:
+First, run command in powershel screen: python emitter_of_tasks.py
+Second, screenshot of the messages in the terminal
+
+These messages will be sent to three separate queues:
 
 smoker-queue, pork-queue, ribs-queue
+
+Project complete! Great work!  
 
 Screenshots added:
 ![alt text](image-1.png)
