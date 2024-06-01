@@ -44,3 +44,8 @@ Screenshot of the messages in the terminal
 These messages are sent to three separate queues:
 
 smoker-queue, pork-queue, ribs-queue
+
+Screenshots added:
+![alt text](image-1.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
