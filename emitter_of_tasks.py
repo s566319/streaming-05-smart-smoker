@@ -99,7 +99,7 @@ def main(host: str, filename: str):
                 if all(value == '' for value in row.values()):
                     # Continue iterating after skipping a null row
                     continue
-                # Example message reading: BBQ Smoker Reading = Date: 05/22/21, Time: 13:46:35; Brisket temp is 38.7°
+                # Example message reading: BBQ Smoker Reading = Date: 05/22/21, Time: 13:46:35; Pork temp is 38.7°
                 message = f"{bbq_smoker} Reading = Date: {date_split}, Time: {time_split}; {pork} temp is {float(pork_temp)}{degree_sign}"
                 # Send the message to the 'pork-queue'
                 send_message(host, 'pork-queue', message)
